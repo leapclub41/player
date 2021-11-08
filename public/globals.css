@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #b9e8ea;
+  font-family: sans-serif;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .heading {
+  color: #62acad;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.tag {
+  color: rgb(243, 60, 60);
+}
+
+.palyer_styles {
+  border: 0.4rem solid #86d6d8;
+  border-radius: 1rem;
+  width: 55%;
+}
+
+@media only screen and (max-width: 768px) {
+  .palyer_styles {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .palyer_styles {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .palyer_styles {
+    width: 88%;
+    border-width: 0.25rem;
+  }
+  .App {
+    font-size: 0.8rem;
+  }
+}
